@@ -5,7 +5,7 @@ import '../models/note_model.dart';
 import '../services/note_service.dart';
 
 class AddNoteView extends StatefulWidget {
-  const AddNoteView({Key? key, this.note}) : super(key: key);
+  const AddNoteView({super.key, this.note});
 
   final NoteModel? note;
 
